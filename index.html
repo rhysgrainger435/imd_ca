@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<title>Rhys Grainger, imd ca2 home, education, sport, hobbies</title>
+	
+	
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+	
+	<link rel="stylesheet" href="css/ca2.css">
+</head>
+
+<body data-spy="scroll" data-target="#navbar-main">
+  
+	
+	<nav id="navbar-main" class="navbar navbar-dark bg-danger px-3 fixed-top">
+		<div class="container-fluid">
+			<a id="homeName" class="navbar-brand" href="#home">Home Page</a>
+			
+			<ul class="nav nav-pills">
+				<li class="nav-item">
+					<a class="nav-link" href="#education">Education</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#workplacement">Work Placement</a>
+				</li>
+                <li class="nav-item">
+					<a class="nav-link" href="#project">Projects</a>
+				</li>
+                <li class="nav-item">
+					<a class="nav-link" href="#hobbies">Sports n hobbies</a>
+				</li>
+                <li class="nav-item">
+					<a class="nav-link" href="#contactMe">Contact Me</a>
+				</li>
+			</ul>
+		</div> 
+	</nav>
+
+    <div data-spy="scroll" data-target="#navbar-main" data-offset="0">
+        <main>
+            <section id="home" class="topics">
+                <h2 class="fw-bold">Welcome to the home page of my Portfolio</h2>
+                <div class="row">
+					<div class="col-3">
+						<img class="float-start img-fluid rounded me-2" src="images/suit photo.jpg" width="600" height="400" alt="Ball"/>
+					</div>
+		  
+					<div class="col-6" id="HomeTextbox">
+						<div class="row">
+                            <p>
+                                Welcome to the home page of my Portfolio CA. This CA should begin to show how I have experienced and adapted through my college career in the world of computing.
+                                My name is Rhys Grainger, i hwas given the x number x00162031 in first year on day one with my student card. The course I gained entry to was Computing in first year.
+                                I had a little experience in computing and coding but I had vast interest in coding, programing, computational desgin and web design going into first year. 
+                            </p>
+                            <p>
+                                After first year we could specify into different streams, the stream or decipline that I choose was software development.
+                                Over the course of many hours and hours of work and practice I have now made it into fourth year where i have numerous different resutlts 
+                                and grades to choose from for this project
+                            </p>
+                            <p>
+                                I hope you enjoy this Portfolio please feel free to look at other topics on the page!
+                            </p>
+						</div>
+                    </div>
+                    <div class="col-3">
+                        <img class="float-end img-fluid rounded me-2" src="images/coding image.gif" alt="coding"/>
+                    </div>
+                </div>
+            </section>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <section id="education" class="topics">
+                <h4>Education</h4>
+                <div class="col-3">
+                    <img id="TUD" class="float-start img-fluid rounded" src="images/TUD.png" width="150" height="132" alt="Certificate"/>
+                </div>
+                <div class="col-9">
+                    <p>The below selection shows the last 3 years of subjects in which i took part in.
+                        it shows the years, 2021, 2020, 2019. Some resutlts were better than others but it enabled me to get to 4th year now<br>
+                        Please select which year you would like to view in more detail.
+                    </p>
+                </div><br>
+                <select id="tableselect" class="form-select" aria-label="Default select example" onchange="showGalleryCategoryImages()" style="max-width: 20em;">
+                    <option selected>Select Year</option>
+                    <option value="1">All</option>
+                    <option value="2">2021</option>
+                    <option value="3">2020</option>
+                    <option value="4">2019</option>
+                </select>
+                <br>
+                <div id="2021">
+                    <h5>2021 resutlts</h5>
+                    <table class="table table-success table-striped">
+                        <thead>
+                          <tr>
+                            <th scope="col">Subject</th>
+                            <th scope="col">Grade</th>
+                            <th scope="col">Pass</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr class="rows">
+                            <th scope="row">Software development</th>
+                            <td>B</td>
+                            <td>True</td>
+                          </tr>
+                          <tr class="rows">
+                            <th scope="row">Business Studies</th>
+                            <td>C</td>
+                            <td>True</td>
+                          </tr>
+                          <tr class="rows">
+                            <th scope="row">Algorithims</th>
+                            <td>B-</td>
+                            <td>True</td>
+                          </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div id="2020">
+                    <h5>2020 resutlts</h5>
+                    <table class="table table-primary table-striped">
+                        <thead>
+                          <tr>
+                            <th scope="col">Subject</th>
+                            <th scope="col">Grade</th>
+                            <th scope="col">Pass</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr class="rows">
+                            <th scope="row">Software development</th>
+                            <td>C</td>
+                            <td>True</td>
+                          </tr>
+                          <tr class="rows">
+                            <th scope="row">Maths</th>
+                            <td>A</td>
+                            <td>True</td>
+                          </tr>
+                          <tr class="rows">
+                            <th scope="row">Advanced Databases</th>
+                            <td>A</td>
+                            <td>True</td>
+                          </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div id="2019">
+                    <h5>2019 resutlts</h5>
+                    <table class="table table-warning table-striped">
+                        <thead>
+                          <tr>
+                            <th scope="col">Subject</th>
+                            <th scope="col">Grade</th>
+                            <th scope="col">Pass</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr class="rows">
+                            <th scope="row">Software development</th>
+                            <td>C</td>
+                            <td>True</td>
+                          </tr>
+                          <tr class="rows">
+                            <th scope="row">Computer Architecture</th>
+                            <td>C+</td>
+                            <td>True</td>
+                          </tr>
+                          <tr class="rows">
+                            <th scope="row">Web Design</th>
+                            <td>A</td>
+                            <td>True</td>
+                          </tr>
+                        </tbody>
+                    </table>
+                </div>
+               
+               
+
+            </section>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <section id="workplacement" class="topics">
+                <h4>Work Placement</h4>
+                <div class="card-group">
+                    <div class="card">
+                      <img src="images/nostra_one.jpg" class="card-img-top" height="150">
+                      <div class="card-body">
+                        <h5 class="card-title">Envirnoment</h5>
+                        <p class="card-text">Nostra's offices were located in Park West Business Park outside the Red Cow
+                            The offices in which I was given a desk and my own little work envirnoment was very comfortable and focusing.
+                            I had the ability to be able to work from home as well after my first two months of the work placement as this should they had trust in me
+                        </p>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img src="images/nostra_two.png" class="card-img-top" height="150">
+                      <div class="card-body">
+                        <h5 class="card-title">Work Load</h5>
+                        <p class="card-text">I was set up in the service engineer role in Nostra. I was put in the green pod which meant that the companies under the green pod where part
+                            of my responsibility.
+                            A key role of my job there was maintaining firewall and active directory access for companies that we maintained the security for.
+                            If the security was comprised we had to make sure that the breaches were contained and that no files such as the accountancy books were harmed at all.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img src="images/nostra_three.png" class="card-img-top" height="150">
+                      <div class="card-body">
+                        <h5 class="card-title">Key Moments</h5>
+                        <p class="card-text"></p>
+                      </div>
+                    </div>
+                  </div>
+            </section>
+
+
+
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <section id="project" class="topics">
+                <h4>Projects</h4>
+                <div class="card text-white bg-success mb-3">
+                    <div class="card-header">Project Year 2</div>
+                    <div class="card-body">
+                      <h5 class="card-title">2nd year project</h5>
+                      <p class="text">The first project that i did was in second year. I had to do it with three other of my class mates in order to make sure we fulfilled the required metrics.
+                        what we had to do was build an online shopping application where we had steps to follow through but also had to make up functionality of our own.
+                        <span class="more-text">
+                            The extra functionality that we had to show was of our own creation. We made a wishlist in which consumers could add an item to the wishlist by hitting a liked button
+                            another was a review feature on the end of every product that we had in the shop. we used the card function from boostrap to show both positive and negative comments
+                            The more functionality that was required was a stripe payment, checkout, a thank you page, product and category pages and a login page to make sure everything was working
+                            correctly. 
+                        </span></p>
+                        <button class="read-more-btn bg-dark text-white">Read more</button>
+                    </div>
+                </div>
+                <div class="card text-white bg-warning mb-3">
+                    <div class="card-header">Project Year 2</div>
+                    <div class="card-body">
+                      <h5 class="card-title">2nd year project</h5>
+                      <p class="text2">The first project that i did was in second year. I had to do it with three other of my class mates in order to make sure we fulfilled the required metrics.
+                        what we had to do was build an online shopping application where we had steps to follow through but also had to make up functionality of our own.
+                        <span class="more-text2">
+                            The extra functionality that we had to show was of our own creation. We made a wishlist in which consumers could add an item to the wishlist by hitting a liked button
+                            another was a review feature on the end of every product that we had in the shop. we used the card function from boostrap to show both positive and negative comments
+                            The more functionality that was required was a stripe payment, checkout, a thank you page, product and category pages and a login page to make sure everything was working
+                            correctly. 
+                        </span></p>
+                        <button class="read-more-btn2 bg-dark text-white">Read more</button>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <section id="hobbies" class="topics">
+                <h4>Sports n hobbies</h4>
+            </section>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <section id="contactMe" class="topics">
+                <h4>Contact page</h4>
+            </section>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        </main>
+
+    </div>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+    
+	<footer>
+        <b>Site Designed by x00162031 Rhys Grainger</b>
+    </footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+	
+	<script src="scripts/ca2.js"></script>  
+</body>
+</html>
